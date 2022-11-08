@@ -1067,7 +1067,7 @@ public class AppController {
   int cantMateriasAprobadas = 0,cantMateriasPosibles=0;
   List<String> prerrequisitos;
   
-  @PostMapping("/closeSemesterSuccess")
+  @PostMapping("/closeSemester")
   public String closeSemesterSuccess(ModelMap modelMap) {
 	  
 	//Lista de tabla MiMateria
